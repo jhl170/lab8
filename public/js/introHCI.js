@@ -10,5 +10,7 @@ $(document).ready(function() {
  */
 function initializePage() {
   initCamera();
+  checkLoginState();
+  statusChangeCallback();
 }
 
